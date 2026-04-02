@@ -82,7 +82,7 @@ class LLMAgent(Agent):
         return value
 ```
 
-The `Inference` usually thinking tokens (? Not sure how to name this) that you find in reasoning models. Particularly:
+The `Inference` usually uses reasoning tokens that you find in reasoning models. Particularly:
 
 ```python
 class Inference(NamedTuple):
